@@ -21,17 +21,17 @@ Read these articles for more information on these concepts:
 
 - Applications sometimes want to map place adjectives or demonyms in search queries to their related places, or vice versa.
 
-  For example, a search query like "sweden history" should match a title like "A History of medieval Swedish people".
+  For example, a search query like *"sweden history"* should match a title like *"A History of medieval Swedish people"*.
     
-  Or a search query like "swedish history" should match a title like "A History of Sweden".
+  Or a search query like *"swedish history"* should match a title like *"A History of Sweden"*.
 
 - Unfortunately, popular English stemmers don't handle this mapping well. KStemmer is the only one that handles some cases, 
   but not all.
   
-  | *word* | Porter | KStemmer | English minimal | Hunspell | Snowball |
-  | --- | --- | --- | --- | --- |
-  | swedish | :no_entry_sign: swedish | :white_check_mark: sweden | :no_entry_sign: swedish | :no_entry_sign: swedish | :no_entry_sign: swedish |
-  | welsh | :no_entry_sign: welsh | :no_entry_sign: welsh | :no_entry_sign: welsh | :no_entry_sign: welsh | :no_entry_sign: welsh | 
-  | indian | :no_entry_sign: indian | :no_entry_sign: indian | :no_entry_sign: indian | :no_entry_sign: indian | :no_entry_sign: indian | 
-  | american | :no_entry_sign: american | :white_check_mark: america | :no_entry_sign: american | :no_entry_sign: american | :no_entry_sign: american | 
-  | british | :no_entry_sign: british | :white_check_mark: britain | :no_entry_sign: british | :no_entry_sign: british | :no_entry_sign: british | 
+| *word* | Porter | KStemmer | English minimal | Hunspell | Snowball |
+| --- | --- | --- | --- | --- | --- |
+| swedish | :no_entry_sign: swedish | :white_check_mark: sweden | :no_entry_sign: swedish | :no_entry_sign: swedish | :no_entry_sign: swedish |
+| welsh | :no_entry_sign: welsh | :no_entry_sign: welsh | :no_entry_sign: welsh | :no_entry_sign: welsh | :no_entry_sign: welsh | 
+| indian | :no_entry_sign: indian | :no_entry_sign: indian | :no_entry_sign: indian | :no_entry_sign: indian | :no_entry_sign: indian | 
+| american | :no_entry_sign: american | :white_check_mark: america | :no_entry_sign: american | :no_entry_sign: american | :no_entry_sign: american | 
+| british | :no_entry_sign: british | :white_check_mark: britain | :no_entry_sign: british | :no_entry_sign: british | :no_entry_sign: british | 
